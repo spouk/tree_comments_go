@@ -8,7 +8,7 @@ from the table where there are 2 elements - ID, PID (respectively, ID unique com
 
 example output
 ==============
-
+<small>
 [COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:58: Нода успешно добавлена к корневой ноде
 [COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:58: Нода успешно добавлена к корневой ноде
 [COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:68: Новая нода `&{3 1 [] {3 1 Simpletext}}` успешно добавлена к своему `родителю`: `&{1 0 [0xc42008a2d0] {1 0 ROOT 1}}`
@@ -21,6 +21,9 @@ example output
 [COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:68: Новая нода `&{10 9 [] {10 9 Simpletext}}` успешно добавлена к своему `родителю`: `&{9 4 [0xc42008b040] {9 4 Simpletext}}`
 [COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:68: Новая нода `&{11 9 [] {11 9 Simpletext}}` успешно добавлена к своему `родителю`: `&{9 4 [0xc42008b040 0xc42008b2c0] {9 4 Simpletext}}`
 [COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:68: Новая нода `&{12 9 [] {12 9 Simpletext}}` успешно добавлена к своему `родителю`: `&{9 4 [0xc42008b040 0xc42008b2c0 0xc42008b540] {9 4 Simpletext}}`
+  </small>
+  
+  ---[Output for html-template]-----------------------------------------------------------------------------------
 <ul>
 <li id='1_0'> ROOT 1 </li>
 <ul>
@@ -43,6 +46,4 @@ example output
 <li id='6_2'> Simpletext </li>
 </ul>
 </ul>
-[COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:123: `&{1 0 [0xc42008a2d0 0xc42008a460 0xc42008aaf0 0xc42008ac80] {1 0 ROOT 1}}`
-[COMMENTSTREE]2017/10/07 12:53:51 /home/spouk/go/src/simple/algoritms/example_tree_comments_go/search_tree.go:123: `&{2 0 [0xc42008a5f0 0xc4200
-
+--------------------------------------------------------------------------------------
